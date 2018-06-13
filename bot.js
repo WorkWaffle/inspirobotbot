@@ -19,7 +19,7 @@ client.on('message', msg => {
   }}});
 client.on('message', msg =>{
   {if (msg.content === 'info+'){
-    mgs.channel.send("Hi there! I'm Inspirobotbot (not actually licensed). Just type i+ for a regular example or if you're feeling festive just type ix+ !")
+    msg.channel.send("Hi there! I'm Inspirobotbot (not actually licensed). Just type i+ for a regular example or if you're feeling festive just type ix+ !")
   }}
 }
     );
